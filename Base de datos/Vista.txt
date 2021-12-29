@@ -1,0 +1,12 @@
+CREATE 
+    ALGORITHM = UNDEFINED 
+    DEFINER = `root`@`localhost` 
+    SQL SECURITY DEFINER
+VIEW `ads`.`datos` AS
+    SELECT 
+        `ads`.`promedio`.`Promedio` AS `Promedio`,
+        `ads`.`dependenciaeconomica`.`DEP_ECO` AS `DEP_ECO`
+    FROM
+        ((`ads`.`estudiantes`
+        JOIN `ads`.`promedio` ON (`ads`.`estudiantes`.`ID_EST` = `ads`.`promedio`.`ID_EST`))
+        JOIN `ads`.`dependenciaeconomica` ON (`ads`.`estudiantes`.`ID_EST` = `ads`.`dependenciaeconomica`.`ID_EST`))

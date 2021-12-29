@@ -1,0 +1,185 @@
+html{
+    background-image: url('fondo1.jpg');
+    
+}
+body{
+    width: 750px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+
+h1{
+    position: absolute;
+    left: 1em;
+    top: 0.5em;
+}
+
+.contenedor{
+    
+    position:absolute;
+    left: 120%;
+    top: -35%;
+}
+.contenedor2{
+    
+    position:absolute;
+    left: 36%;
+    top: 7%;
+}
+.go{
+    background-color: rgb(75, 150, 211);
+    border-radius: 50px;
+    width: 4%;
+    left: 5%;
+    top: 35%;
+    position: absolute;
+}
+
+.btn{
+    background-color: chartreuse;
+    border-radius: 50px;
+    left: 78%;
+    position: relative;
+    width: 20%;
+}
+
+/*Scroll*/
+
+.table-fixed tbody{
+    height: 400px;
+    overflow-y: auto;
+    width: 100%;
+    
+}
+.table-fixed thead,
+.table-fixed tbody,
+.table-fixed td,
+.table-fixed th{
+    display: block;
+}
+.table-fixed tbody td,
+.table-fixed thead > tr > th{
+    float: left;
+    border-bottom-width: 0;
+}
+
+/*Ingreso de datos*/
+
+.input{
+    top: 55%;
+    background-color: #ffffff;
+    border:2px solid black;
+    border-radius: 15px 50px;
+    position: absolute;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    left: 2%;
+    width: 32%;
+    
+}
+.caja5,.caja6,.caja7{
+    width: 150px;
+    display: block;
+    margin-right: 20px;
+    align-content: center;
+    
+}
+.caja8,.caja9,.caja10,.caja11{
+    width: 150px;
+    display: block;
+    margin-right: 20px;
+    align-content: center;
+    
+}
+
+.caja1,.caja2,.caja4{
+    width: 60px;
+    display: block;
+    margin-right: 10px;
+    align-content: center;
+    
+}
+.caja3{
+    width: 60px;
+    display: block;
+    margin-right: 10px;
+    margin-left: 5px;
+    align-content: center;
+}
+.center3{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 20px;
+}
+
+.center2{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 20px;
+}
+.centrarAll{
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+/*Resultados*/
+.result{
+    top: 72%;
+    background-color: #ffffff;
+    border:2px solid black;
+    position: absolute;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    left: 44%;
+    width: 26%;
+    border-radius: 15px 50px;
+}
+/* style all input elements with a required attribute */
+input:required:focus {
+    border: 2px solid;
+}
+.Charge{
+    top:10%;
+    background-color: #ffffff;
+    border:2px solid black;
+    border-radius: 15px 50px;
+    position: absolute;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    left: 2%;
+    width: 28%;
+    height: 18%;
+}
+.cargar{
+    background-color: chartreuse;
+    border-radius: 50px;
+}
+
+.btn-submit1{
+    background-color: chartreuse;
+    border-radius: 50px;
+    margin-left: 10%;
+    top: 65%;
+    left: 10%;
+    position: absolute;
+
+}
+.btn-submit2{
+    background-color: chartreuse;
+    border-radius: 50px;
+    margin-left: 20%;
+    top: 65%;
+    left: 30%;
+    position: absolute;
+}
